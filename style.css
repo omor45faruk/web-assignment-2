@@ -10,7 +10,7 @@
 
 /* brand-style-section */
 .brand{
-    font-size: 36px;
+    font-size: 2.2rem;
     font-weight: bolder;
     font-style: italic;
     color: #E6533C;
@@ -27,6 +27,7 @@
 .nav-item{
     list-style: none;
     margin-right: 30px;
+
     
     
    
@@ -35,7 +36,8 @@
 .nav-items{
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px; 
-    font-size: 18px;
+    font-size: 1.1rem;
+    display: none;
    
   
 }
@@ -48,17 +50,25 @@
 
 
 /* share class */
+body{
+    background-color: #111111;
+
+}
 .primary-btn{
     background-color: #E6533B;
-    padding: 8px 20px;
+    padding: 15px 30px;
     border-radius: 38px;
     border: none;
-    font-weight: bolder;
-    font-size: 16px;
+    font-size: 1rem ;
     color: #FFFFFF;
     margin: 5px;
 }
 
+
+.primary-header{
+    font-weight: 800;
+    font-size: 2rem;
+}
 .display-flex{
     display: flex;
 }
@@ -67,9 +77,369 @@
     margin-left: 40px;
 }
 
-body{
+
+.body{
     background-color: #111111;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 57px;
+    color: #FFFFFF;
+}
+.content-discribtion{
+    font-size: 1rem;
+    color: #757575;
+}
+.banner-header{
+    font-weight: 900;
+    font-size: 4rem;
+}
+.secondary-btn{
+    background-color: #000000;
+    padding: 15px 30px;
+    border-radius: 38px;
+    border: 1px solid white;
+    font-size: 1rem ;
+    color: #FFFFFF;
+    margin: 5px;
+}
+.bold{
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.banner-content{
+    height: 100%;
+    width: 50%;
+    padding-top: 41px;
+}
+.banner-card-1{
+    width: 181px;
+    height: 104px;
+    background-color: rgba(146, 139, 139, 0.353);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.banner-card-2 {
+    width: 181px;
+    height: 104px;
+    background-color: rgba(146, 139, 139, 0.353);
+    border-radius: 10px;
+    text-align: center;
+}
+    
+
+.banner-img{
+    background-image: url(/images/Images\ 2.png);
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-left: 140px;
+    display: grid;
+    background-repeat: no-repeat;
+}
+.dot-color {
+    background-color: #E6533B;
+    width: 65px;
+    height: 45px;
+    border-radius: 25px;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+/* habbit section */
+
+.habits-containt{
+    
+    text-align: center;
+
+}
+.habit{
+    width: 100%;
+    display: flex;
+   
+}
+.card-img{
+    border-radius: 85px;
+}
+.habit-cards{
+    margin-top: 50px;
+}
+.habit-card{
+    display: flex;
+    gap: 20px;
+}
+/* run div section */
+.run-card{
+    width: auto;
+    border-radius: 26px;
+    height: 314px;
+    background-color: #cecbcb21;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+
+.run-content{
+    width: 50%;
+    padding: 20px;
+    margin-left: 35px;
+    height: auto;
+    
+}
+.text-align-center{
+    text-align: center;
+}
+.card-contant{
+    margin-top: 222px;
+    margin-left: 11px;
+}
+/* Team section */
+.team-card1{
+    background-image: url(images/trainer1.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    
+ 
+}
+
+.team-card2{
+    background-image: url(images/trainer2.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    
+  
+    
+}
+.team-card3{
+    background-image: url(images/trainer3.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    
+   
+   
+}
+.team-card4{
+    background-image: url(images/trainer4.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    
+  
+    
+}
+.team-card5{
+    background-image: url(images/trainer5.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    
+    
+    
+}
+.team-card6{
+    background-image: url(images/trainer6.png);
+    width: 400px;
+    height: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+  
+   
+    
+   
+}
+.card-team1{
+   
+    display: flex;
+   
+   
+
+}
+.card-team2{
+    display: flex;
+  
+    
+}
+.card-container{
+    background-color: #cecbcb21;
+    border-radius: 20px;
+}
+.team{
+    margin-bottom: 53px;
+}
+
+/* bmi section */
+.bmi-calculator{
+    margin-right: 20px;
+}
+table, th, td{
+    border: 1px solid ;
+    border-collapse: collapse;
+    padding: 20px;
+    
+}
+input{
+    height: 44px;
+    padding: 10px 50px 10px 12px;
+    width: 217px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: rgb(205 195 195 / 17%);
+}
+.input-long{
+    width: 57%;
+    
+    height: 63px;
+    padding: 10px 50px 10px 12px;
+    width: 563px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: rgb(205 195 195 / 17%);
+    color: #757575;
+
+}
+.input-long-2{
+    width: 57%;
+    
+    height: 63px;
+    padding: 10px 50px 10px 12px;
+    width: 278px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: rgb(205 195 195 / 17%);
+    color: #757575
+
+}
+.bmi-container{
+    display: flex;
+    background-color: #cecbcb21;
+}
+.text-align-center{
+    text-align: center;
+}
+.bmi-chart{
+    
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+/* footer section */
+
+.footer-header{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.li-items{
+    list-style: none;
+    color: #757575;
+    margin-top: 10px;
+}
+.footer-sec-header{
+    margin-left: 37px;
+    color: #FFFFFF;
+
+}
+.footer-continer{
+    display: flex;
+   
+    margin-top: 60px;
+}
+
+.header1{
+    width: 33%;
+    margin-left: 195px;
+}
+.header2{
+    width: 33%;
+    margin-top: 44px;
+    margin-left: 45px;
+}
+.header3{
+    width: 33%;
+    margin-top: 44px;
+    margin-left: 45px;
+}
+footer{
+    background-color:#cecbcb21;
+}
+.copy{
+    text-align: center;
+   
+    margin-top: 21px;
+}
+
+.display-hide{
+    display: none;
+}
+
+@media screen and (max-width: 577px) {
+
+    .menu-logo{
+        display: block;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    /* navbar start */
+    .navbar{
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 50px;
+        
+    }
+    .body{
+        justify-content: space-between;
+        margin: 0px;
+
+    }
+    
+    .nav-items{
+                display: none;
+                
+    }
+
+
+    .habit-card{
+        flex-direction: column;
+    }
+
 }
