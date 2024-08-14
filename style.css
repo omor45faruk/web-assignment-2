@@ -479,11 +479,12 @@ footer{
     }
    
     /* navbar start */
-    .navbar{
-        width: 100%;
-        justify-content: space-around;
+    
+    .navbar {
+        width: 90%;
+        justify-content: space-between;
         margin-top: 50px;
-        
+        margin-left: 20px;
     }
     .body{
         justify-content: space-between;
