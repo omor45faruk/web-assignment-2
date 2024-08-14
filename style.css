@@ -114,9 +114,9 @@ body{
 .bold{
     font-weight: bold;
 }
-.banner{
+.banner {
     width: 100%;
-    height: 700px;
+    height: 610px;
     display: flex;
 }
 .banner-content{
@@ -164,10 +164,10 @@ body{
 
 /* habbit section */
 
-.habits-containt{
-    
+.habits-containt {
     text-align: center;
-
+    margin-left: 164px;
+    width: 62%;
 }
 .habit{
     width: 100%;
@@ -183,6 +183,7 @@ body{
 .habit-card{
     display: flex;
     gap: 20px;
+    margin-left: 20px;
 }
 /* run div section */
 .run-card{
