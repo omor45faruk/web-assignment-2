@@ -642,5 +642,28 @@ footer{
         height: auto;
         margin-left: 75px;
     }
+/* footer section */
+.footer-continer{
+    flex-direction: column;
+}
+
+.header1 {
+    width: 52%;
+    margin-left: 50px;
+}
+.header2 {
+    width: 50%;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+.header3 {
+    width: 50%;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+.footer-sec-header {
+    margin-left: 0px;
+    color: #FFFFFF;
+}
 
 }
