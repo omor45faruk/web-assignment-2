@@ -8,6 +8,15 @@
     "slnt" 0;
 }
 
+
+
+.sape-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /* brand-style-section */
 .brand{
     font-size: 2.2rem;
@@ -499,12 +508,14 @@ footer{
         font-weight: 800;
         font-size: 3rem;
     }
+    
     .banner-content {
         height: 100%;
-        width: 52%;
+        width: 87%;
         padding-top: 41px;
-        margin-left: 86px;
+        margin-left: 17px;
     }
+
     .content-discribtion {
         font-size: 1rem;
         color: #757575;
@@ -533,14 +544,16 @@ footer{
     }
     .banner-img {
         background-image: url(images/Images\ 2.png);
-        width: 63%;
-        margin-top: 20px;
+        width: 75%;
+        margin-top: 24px;
         margin-left: 20px;
-        margin-left: 93px;
+        margin-left: 63px;
         display: grid;
         background-repeat: round;
-        height: 100%;
+        height: 540px;
     }
+
+    
 
 /* habit section */
     .habit-card{
@@ -550,50 +563,68 @@ footer{
 
     .habits-containt {
         text-align: center;
-        margin-top: 28%;
-        width: 60%;
-        margin-left: 100px;
+        margin-top: 13%;
+        width: 74%;
+        margin-left: 56px;
     }
-    .habit-discribtion{
+
+    .habit-discribtion {
         font-size: 1rem;
         color: #757575;
-        margin-top: 22px;
-        margin-bottom: 15px;
-        width: 50%;
+        margin-top: 17px;
+        width: 60%;
         text-align: center;
-        margin-left: 140px;
+        margin-left: 81px;
+        justify-items: center;
     }
-    
+
     .habit-cards {
         margin-top: 40px;
         text-align: center;
        
     }
     .card-img {
-        border-radius: 92px;
+        border-radius: 101px;
         border: 4px solid #757575;
+        width: 200px;
+    }
+    .banner-card-1 {
+        width: 150px;
+        height: 91px;
+        background-color: rgb(146 139 139 / 15%);
+        border-radius: 10px;
+        text-align: center;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-top: 80px;
+    }
+    .banner-card-2 {
+        width: 170px;
+        height: 99px;
+        background-color: rgb(146 139 139 / 21%);
+        border-radius: 10px;
+        text-align: center;
     }
     /* run cards */
-    .run-card{
+    .run-card {
         flex-direction: column;
-            width: auto;
-            border-radius: 26px;
-            height: 642px;
-            background-color: #cecbcb21;
-            gap: -6px;
-            margin-top: 50px;
-            margin-bottom: 64px;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-        .run-content {
-            
-                width: 60%;
-                padding: 40px 20px 0px 20px;
-                margin-left: 35px;
-                height: auto;
-                margin-left: 75px;
-            }
+        width: 380px;
+        border-radius: 26px;
+        height: 644px;
+        background-color: #cecbcb21;
+        gap: -6px;
+        margin-top: 50px;
+        margin-bottom: 64px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+        
+    .run-content {
+        width: 80%;
+        padding: 40px 20px 0px 20px;
+        height: auto;
+        margin-left: 0px;
+    }
         .run-img{
             
                 height: 276px;
@@ -669,6 +700,7 @@ footer{
             margin-bottom: 8px;
             background-color: rgb(205 195 195 / 17%);
             color: #757575;
+            width: 330px;
         }
     
     /* team section */
@@ -728,6 +760,7 @@ footer{
 .header1 {
     width: 52%;
     margin-left: 50px;
+    margin-top: 25px;
 }
 .header2 {
     width: 50%;
